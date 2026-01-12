@@ -86,11 +86,14 @@ export default function DonarPage() {
         </p>
 
         <a
-          href="mailto:contacto@proyectoarca.cl"
-          className="inline-block bg-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition"
+        href="https://wa.me/56998199978"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition"
         >
-          Quiero apoyar / Contactar
-        </a>
+  Quiero apoyar / Contactar
+      </a>
+
       </section>
 
       {/* VOLVER */}
