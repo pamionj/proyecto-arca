@@ -66,7 +66,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   
       {/* CONTENEDOR BLANCO DEL POST */}
       <section className="bg-white rounded-2xl p-6 md:p-10 shadow-sm">
-        <article className="prose prose-green prose-lg max-w-none prose-p:my-6 prose-li:my-2 prose-hr:my-10">
+      <article className="prose prose-green prose-lg max-w-none text-gray-800 prose-p:my-6 prose-li:my-2 prose-hr:my-10">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </article>
       </section>
